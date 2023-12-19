@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navigat{
+  background-image: url(../public/images/image1.png);
+  height: 554px;
+  width: 1918px;
+ margin-left: 1px;
+  
+}
