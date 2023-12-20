@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import typography from '@tailwindcss/typography';
 export default {
   content: [
     "./index.html",
@@ -6,10 +7,19 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ['Roboto', 'sans-serif'],
-      serif: ['Roboto', 'serif'],
+      roboto: ['Roboto', 'sans-serif'],
+      staatliches: ['Staatliches', 'serif'],
+
     },
+    // colors: {
+    //   'black': '#161616',
+    //   'orange': '#FF5E01',
+
+    // },
+
   },
-  plugins: [],
+  plugins: [
+    typography,
+  ],
 }
 

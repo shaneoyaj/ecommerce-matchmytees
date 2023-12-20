@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './HomePage/Navbar/Navbar'
 import Banner from './HomePage/Banner/Banner'
+import SearchSection from './HomePage/SearchSection/SearchSection'
+import CustomizeSection from './HomePage/CustomizeSection/CustomizeSection'
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
    <main className='min-h-screen'>
     <Navbar/>
     <Banner/>
+   <SearchSection/>
+  <CustomizeSection/>
    </main>
   )
 }

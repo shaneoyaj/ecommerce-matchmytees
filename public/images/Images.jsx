@@ -8,6 +8,10 @@ const Images = {
     image7 : new URL('./image7.png', import.meta.url).href,
     image8 : new URL('./image8.png', import.meta.url).href,
     image9 : new URL('./image9.png', import.meta.url).href,
+    image10 : new URL('./shoe.svg', import.meta.url).href,
+    image11 : new URL('./palette.svg', import.meta.url).href,
+    image12 : new URL('./tshirt.svg', import.meta.url).href,
+    
 }
 
 export default Images;

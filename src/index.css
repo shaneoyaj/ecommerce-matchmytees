@@ -1,11 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Staatliches&display=swap');  
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.navigat{
-  background-image: url(../public/images/image1.png);
-  height: 554px;
-  width: 1918px;
- margin-left: 1px;
-  
+
+.btn-color{
+  background-color: #FF5E01 ;
+  color: #FFF;
 }

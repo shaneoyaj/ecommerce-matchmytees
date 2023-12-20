@@ -1,11 +1,18 @@
 import React from 'react'
 import Images from '../../../public/images/Images'
+import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='navigat relative'>
+
+      <div className='absolute'>
+      
       <div className='absolute'> 
   <img src={Images.image2} className='mt-[81px] ml-[295px] w-[321px] h-[460px]' alt="" />
 </div>
+{/* <div className='absolute font-staatliches text-center '> 
+  <h2 className=' text-[50px]'>MATCH YOUR OUTFITS<br/> TO YOUR SNEAKERS</h2>
+</div>   */}
 <div className='absolute'> 
   <img src={Images.image6} className='mt-[294px] ml-[873px] w-[140px] h-[100px]' alt="" />
 </div>
@@ -24,6 +31,7 @@ const Navbar = () => {
       <div className='absolute'> 
   <img src={Images.image4} className='mt-[169px] ml-[985px] w-[388px] h-[457px]' alt="" />
 </div>
+        </div>
 
       {/* <div className='absolute'> 
   <img src={Images.image8} className='mt-[230px] ml-[1180px] w-[99px] h-[120px] -rotate-[15deg] ' alt="" />
@@ -63,18 +71,18 @@ const Navbar = () => {
           <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
         </button>
       </div> */}
-      <div className="w-full block flex-grow lg:flex text-center items-center lg:w-auto">
+      <div className="w-full block flex-grow lg:flex text-center items-center lg:w-auto font-roboto">
         <div className="text-[16px] lg:flex-grow ">
-          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-black  mr-[60px]">
+          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 nav-color  mr-[60px]">
             T-Shirts
           </a>
-          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-black  mr-[60px]">
+          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 nav-color  mr-[60px]">
             Hoodies
           </a>
-          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-black mr-[60px]">
+          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 nav-color mr-[60px]">
             Crop Tops
           </a>
-          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-black mr-[60px]">
+          <a href="#" className="block mt-4 lg:inline-block lg:mt-0 nav-color mr-[60px]">
             Socks
           </a>
           <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-black ">
@@ -123,4 +131,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
