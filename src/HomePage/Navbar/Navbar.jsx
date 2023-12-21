@@ -3,7 +3,7 @@ import Images from '../../../public/images/Images'
 import './Navbar.css'
 const Navbar = () => {
   return (
-    <div className='navigat relative'>
+    <div className='navigat relative mb-[87px]'>
 
       <div className='absolute'>
       

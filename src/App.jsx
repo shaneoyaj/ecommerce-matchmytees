@@ -6,6 +6,9 @@ import Navbar from './HomePage/Navbar/Navbar'
 import Banner from './HomePage/Banner/Banner'
 import SearchSection from './HomePage/SearchSection/SearchSection'
 import CustomizeSection from './HomePage/CustomizeSection/CustomizeSection'
+import Popular from './HomePage/Popular/Popular'
+import OutfitCategory from './HomePage/OutfitCategory/OutfitCategory'
+import ChooseBySneaker from './HomePage/ChooseBySneaker/ChooseBySneaker'
 
 function App() {
 
@@ -16,6 +19,9 @@ function App() {
     <Banner/>
    <SearchSection/>
   <CustomizeSection/>
+  <Popular/>
+  <OutfitCategory/>
+  <ChooseBySneaker/>
    </main>
   )
 }

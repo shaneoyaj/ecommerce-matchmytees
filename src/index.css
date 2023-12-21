@@ -8,3 +8,13 @@
   background-color: #FF5E01 ;
   color: #FFF;
 }
+.card-popular{
+  padding-left: 11px;
+  padding-right: 11px;
+padding-top: 39px;
+padding-bottom: 25px;
+}
+/* Flip on the X axis */
+.flip-horizontal {
+  --transform-scale-x: -1;
+}

@@ -11,12 +11,19 @@ export default {
       staatliches: ['Staatliches', 'serif'],
 
     },
+    container: {
+      center: true,
+    },
     // colors: {
     //   'black': '#161616',
     //   'orange': '#FF5E01',
 
     // },
-
+    extend: {
+      scale: {
+          '-100': '-1',
+      }
+  }
   },
   plugins: [
     typography,
